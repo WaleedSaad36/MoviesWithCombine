@@ -17,6 +17,20 @@
 		9A0C20FF29A4D07D0030CE94 /* MoviesWithCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C20FE29A4D07D0030CE94 /* MoviesWithCombineTests.swift */; };
 		9A0C210929A4D07E0030CE94 /* MoviesWithCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C210829A4D07E0030CE94 /* MoviesWithCombineUITests.swift */; };
 		9A0C210B29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C210A29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift */; };
+		9A83F43429A4FCC800EF797E /* ReachabilityContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F43329A4FCC800EF797E /* ReachabilityContract.swift */; };
+		9A83F43829A4FD5000EF797E /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F43729A4FD5000EF797E /* ReachabilityManager.swift */; };
+		9A83F43A29A4FD9F00EF797E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F43929A4FD9F00EF797E /* BaseViewController.swift */; };
+		9A83F43D29A4FE0300EF797E /* DisposeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F43C29A4FE0300EF797E /* DisposeObject.swift */; };
+		9A83F44029A4FF8500EF797E /* GaneralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F43F29A4FF8500EF797E /* GaneralConstants.swift */; };
+		9A83F44329A5010700EF797E /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44229A5010700EF797E /* AsyncImageView.swift */; };
+		9A83F44629A5017E00EF797E /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44529A5017E00EF797E /* AlertItem.swift */; };
+		9A83F44829A501BB00EF797E /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44729A501BB00EF797E /* AlertAction.swift */; };
+		9A83F45029A5022600EF797E /* ProgressHUDAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44A29A5022500EF797E /* ProgressHUDAnimationType.swift */; };
+		9A83F45129A5022600EF797E /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44B29A5022500EF797E /* ProgressView.swift */; };
+		9A83F45229A5022600EF797E /* ProgressHUDAlertIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44C29A5022500EF797E /* ProgressHUDAlertIcon.swift */; };
+		9A83F45329A5022600EF797E /* ProgressHUDAnimatedIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44D29A5022600EF797E /* ProgressHUDAnimatedIcon.swift */; };
+		9A83F45429A5022600EF797E /* ProgressDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44E29A5022600EF797E /* ProgressDisplayer.swift */; };
+		9A83F45529A5022600EF797E /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F44F29A5022600EF797E /* ProgressHUD.swift */; };
 		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
 		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 		9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */; };
@@ -68,6 +82,20 @@
 		9A0C210429A4D07E0030CE94 /* MoviesWithCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesWithCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0C210829A4D07E0030CE94 /* MoviesWithCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesWithCombineUITests.swift; sourceTree = "<group>"; };
 		9A0C210A29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesWithCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A83F43329A4FCC800EF797E /* ReachabilityContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityContract.swift; sourceTree = "<group>"; };
+		9A83F43729A4FD5000EF797E /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		9A83F43929A4FD9F00EF797E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9A83F43C29A4FE0300EF797E /* DisposeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeObject.swift; sourceTree = "<group>"; };
+		9A83F43F29A4FF8500EF797E /* GaneralConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaneralConstants.swift; sourceTree = "<group>"; };
+		9A83F44229A5010700EF797E /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		9A83F44529A5017E00EF797E /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		9A83F44729A501BB00EF797E /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		9A83F44A29A5022500EF797E /* ProgressHUDAnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUDAnimationType.swift; sourceTree = "<group>"; };
+		9A83F44B29A5022500EF797E /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		9A83F44C29A5022500EF797E /* ProgressHUDAlertIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUDAlertIcon.swift; sourceTree = "<group>"; };
+		9A83F44D29A5022600EF797E /* ProgressHUDAnimatedIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUDAnimatedIcon.swift; sourceTree = "<group>"; };
+		9A83F44E29A5022600EF797E /* ProgressDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressDisplayer.swift; sourceTree = "<group>"; };
+		9A83F44F29A5022600EF797E /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIFont+Helpers.swift"; sourceTree = "<group>"; };
@@ -161,12 +189,12 @@
 		9A0C20E629A4D07A0030CE94 /* MoviesWithCombine */ = {
 			isa = PBXGroup;
 			children = (
+				9A0C20F529A4D07D0030CE94 /* Info.plist */,
 				9AFB7E6A29A4F3E7007989F6 /* Application */,
-				9AFB7E6C29A4F41C007989F6 /* Configration */,
+				9A83F43129A4F84100EF797E /* Extenstions */,
 				9AFB7E6F29A4F560007989F6 /* Scenes */,
 				9AFB7E6B29A4F3FA007989F6 /* Resources */,
-				9A0C20F529A4D07D0030CE94 /* Info.plist */,
-				9A83F43129A4F84100EF797E /* Extenstions */,
+				9A83F43529A4FCEA00EF797E /* Utilites */,
 			);
 			path = MoviesWithCombine;
 			sourceTree = "<group>";
@@ -207,6 +235,123 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		9A83F43529A4FCEA00EF797E /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F43629A4FD0200EF797E /* Reachability */,
+				9A83F43B29A4FDA900EF797E /* BaseViewController */,
+				9A83F43E29A4FE9200EF797E /* Dispose */,
+				9A83F45A29A5030A00EF797E /* Reusable Components */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		9A83F43629A4FD0200EF797E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F43329A4FCC800EF797E /* ReachabilityContract.swift */,
+				9A83F43729A4FD5000EF797E /* ReachabilityManager.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		9A83F43B29A4FDA900EF797E /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F43929A4FD9F00EF797E /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		9A83F43E29A4FE9200EF797E /* Dispose */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F43C29A4FE0300EF797E /* DisposeObject.swift */,
+			);
+			path = Dispose;
+			sourceTree = "<group>";
+		};
+		9A83F44129A5003E00EF797E /* GaneralConstants */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F43F29A4FF8500EF797E /* GaneralConstants.swift */,
+			);
+			path = GaneralConstants;
+			sourceTree = "<group>";
+		};
+		9A83F44429A5011F00EF797E /* imageView */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44229A5010700EF797E /* AsyncImageView.swift */,
+			);
+			path = imageView;
+			sourceTree = "<group>";
+		};
+		9A83F44929A501EE00EF797E /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44529A5017E00EF797E /* AlertItem.swift */,
+				9A83F44729A501BB00EF797E /* AlertAction.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		9A83F45629A5023500EF797E /* Loading Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F45729A5025100EF797E /* Displayer */,
+				9A83F45829A5026C00EF797E /* View */,
+				9A83F45929A5028400EF797E /* Helpers */,
+			);
+			path = "Loading Indicator";
+			sourceTree = "<group>";
+		};
+		9A83F45729A5025100EF797E /* Displayer */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44E29A5022600EF797E /* ProgressDisplayer.swift */,
+			);
+			path = Displayer;
+			sourceTree = "<group>";
+		};
+		9A83F45829A5026C00EF797E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44F29A5022600EF797E /* ProgressHUD.swift */,
+				9A83F44B29A5022500EF797E /* ProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A83F45929A5028400EF797E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44C29A5022500EF797E /* ProgressHUDAlertIcon.swift */,
+				9A83F44D29A5022600EF797E /* ProgressHUDAnimatedIcon.swift */,
+				9A83F44A29A5022500EF797E /* ProgressHUDAnimationType.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9A83F45A29A5030A00EF797E /* Reusable Components */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44929A501EE00EF797E /* Alert */,
+				9A83F45B29A5035D00EF797E /* Views */,
+				9A83F45629A5023500EF797E /* Loading Indicator */,
+			);
+			path = "Reusable Components";
+			sourceTree = "<group>";
+		};
+		9A83F45B29A5035D00EF797E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F44429A5011F00EF797E /* imageView */,
+				9A83F44129A5003E00EF797E /* GaneralConstants */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9AFB7E6A29A4F3E7007989F6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,13 +368,6 @@
 				9A0C20F229A4D07D0030CE94 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		9AFB7E6C29A4F41C007989F6 /* Configration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Configration;
 			sourceTree = "<group>";
 		};
 		9AFB7E6D29A4F444007989F6 /* MovieListViewController */ = {
@@ -514,15 +652,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A83F43829A4FD5000EF797E /* ReachabilityManager.swift in Sources */,
 				9AFB7E9229A4F788007989F6 /* Ex+UIView+Helpers.swift in Sources */,
+				9A83F45229A5022600EF797E /* ProgressHUDAlertIcon.swift in Sources */,
 				9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */,
+				9A83F44329A5010700EF797E /* AsyncImageView.swift in Sources */,
+				9A83F43429A4FCC800EF797E /* ReachabilityContract.swift in Sources */,
+				9A83F45529A5022600EF797E /* ProgressHUD.swift in Sources */,
+				9A83F45129A5022600EF797E /* ProgressView.swift in Sources */,
+				9A83F45429A5022600EF797E /* ProgressDisplayer.swift in Sources */,
+				9A83F45029A5022600EF797E /* ProgressHUDAnimationType.swift in Sources */,
+				9A83F44029A4FF8500EF797E /* GaneralConstants.swift in Sources */,
+				9A83F44829A501BB00EF797E /* AlertAction.swift in Sources */,
 				9AFB7E9A29A4F788007989F6 /* Ex+NSObject+Helpers.swift in Sources */,
+				9A83F44629A5017E00EF797E /* AlertItem.swift in Sources */,
+				9A83F43D29A4FE0300EF797E /* DisposeObject.swift in Sources */,
 				9AFB7E9529A4F788007989F6 /* Ex+Dictionary+Helpers.swift in Sources */,
 				9AFB7E9729A4F788007989F6 /* Ex+CollectionView+Helpers.swift in Sources */,
+				9A83F43A29A4FD9F00EF797E /* BaseViewController.swift in Sources */,
 				9AFB7E9929A4F788007989F6 /* Ex+Navigation+Helpers.swift in Sources */,
 				9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */,
 				9AFB7E9629A4F788007989F6 /* Ex+Optional+Helpers.swift in Sources */,
 				9AFB7E9B29A4F788007989F6 /* Ex+UIColor+Helpers.swift in Sources */,
+				9A83F45329A5022600EF797E /* ProgressHUDAnimatedIcon.swift in Sources */,
 				9A0C20E829A4D07A0030CE94 /* AppDelegate.swift in Sources */,
 				9A0C20EA29A4D07A0030CE94 /* SceneDelegate.swift in Sources */,
 				9AFB7E9829A4F788007989F6 /* Ex+String+Helpers.swift in Sources */,
