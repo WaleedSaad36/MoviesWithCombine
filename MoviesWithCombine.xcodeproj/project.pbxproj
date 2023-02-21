@@ -17,6 +17,8 @@
 		9A0C20FF29A4D07D0030CE94 /* MoviesWithCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C20FE29A4D07D0030CE94 /* MoviesWithCombineTests.swift */; };
 		9A0C210929A4D07E0030CE94 /* MoviesWithCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C210829A4D07E0030CE94 /* MoviesWithCombineUITests.swift */; };
 		9A0C210B29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C210A29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift */; };
+		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
+		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		9A0C210429A4D07E0030CE94 /* MoviesWithCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesWithCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0C210829A4D07E0030CE94 /* MoviesWithCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesWithCombineUITests.swift; sourceTree = "<group>"; };
 		9A0C210A29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesWithCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		E4C75480A1BAC0050A1D01C6 /* Pods_MoviesWithCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviesWithCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3BA03D95F54521E240BB2B /* Pods-MoviesWithCombine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesWithCombine.release.xcconfig"; path = "Target Support Files/Pods-MoviesWithCombine/Pods-MoviesWithCombine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,11 +139,10 @@
 		9A0C20E629A4D07A0030CE94 /* MoviesWithCombine */ = {
 			isa = PBXGroup;
 			children = (
-				9A0C20E729A4D07A0030CE94 /* AppDelegate.swift */,
-				9A0C20E929A4D07A0030CE94 /* SceneDelegate.swift */,
-				9A0C20F029A4D07D0030CE94 /* Assets.xcassets */,
-				9A0C20F229A4D07D0030CE94 /* LaunchScreen.storyboard */,
-				9A0C20F529A4D07D0030CE94 /* Info.plist */,
+				9AFB7E6A29A4F3E7007989F6 /* Application */,
+				9AFB7E6F29A4F560007989F6 /* Scenes */,
+				9AFB7E6B29A4F3FA007989F6 /* Resources */,
+				9AFB7E6C29A4F41C007989F6 /* Configration */,
 			);
 			path = MoviesWithCombine;
 			sourceTree = "<group>";
@@ -159,6 +162,57 @@
 				9A0C210A29A4D07E0030CE94 /* MoviesWithCombineUITestsLaunchTests.swift */,
 			);
 			path = MoviesWithCombineUITests;
+			sourceTree = "<group>";
+		};
+		9AFB7E6A29A4F3E7007989F6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9A0C20E729A4D07A0030CE94 /* AppDelegate.swift */,
+				9A0C20E929A4D07A0030CE94 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9AFB7E6B29A4F3FA007989F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A0C20F029A4D07D0030CE94 /* Assets.xcassets */,
+				9A0C20F229A4D07D0030CE94 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9AFB7E6C29A4F41C007989F6 /* Configration */ = {
+			isa = PBXGroup;
+			children = (
+				9A0C20F529A4D07D0030CE94 /* Info.plist */,
+			);
+			path = Configration;
+			sourceTree = "<group>";
+		};
+		9AFB7E6D29A4F444007989F6 /* MovieListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */,
+				9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */,
+			);
+			path = MovieListViewController;
+			sourceTree = "<group>";
+		};
+		9AFB7E6E29A4F54E007989F6 /* MovieListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB7E6D29A4F444007989F6 /* MovieListViewController */,
+			);
+			path = MovieListScreen;
+			sourceTree = "<group>";
+		};
+		9AFB7E6F29A4F560007989F6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB7E6E29A4F54E007989F6 /* MovieListScreen */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */,
 				9A0C20F429A4D07D0030CE94 /* LaunchScreen.storyboard in Resources */,
 				9A0C20F129A4D07D0030CE94 /* Assets.xcassets in Resources */,
 			);
@@ -417,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */,
 				9A0C20E829A4D07A0030CE94 /* AppDelegate.swift in Sources */,
 				9A0C20EA29A4D07A0030CE94 /* SceneDelegate.swift in Sources */,
 			);
@@ -594,7 +650,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,7 +679,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
