@@ -12,8 +12,6 @@
 		73F80F9ACE77FFE69DF04A56 /* Pods_MoviesWithCombineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5E1E3F1AA4EF278F088E19 /* Pods_MoviesWithCombineTests.framework */; };
 		9A0C20E829A4D07A0030CE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C20E729A4D07A0030CE94 /* AppDelegate.swift */; };
 		9A0C20EA29A4D07A0030CE94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C20E929A4D07A0030CE94 /* SceneDelegate.swift */; };
-		9A0C20EC29A4D07A0030CE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C20EB29A4D07A0030CE94 /* ViewController.swift */; };
-		9A0C20EF29A4D07A0030CE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0C20ED29A4D07A0030CE94 /* Main.storyboard */; };
 		9A0C20F129A4D07D0030CE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0C20F029A4D07D0030CE94 /* Assets.xcassets */; };
 		9A0C20F429A4D07D0030CE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0C20F229A4D07D0030CE94 /* LaunchScreen.storyboard */; };
 		9A0C20FF29A4D07D0030CE94 /* MoviesWithCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C20FE29A4D07D0030CE94 /* MoviesWithCombineTests.swift */; };
@@ -49,8 +47,6 @@
 		9A0C20E429A4D0790030CE94 /* MoviesWithCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesWithCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0C20E729A4D07A0030CE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A0C20E929A4D07A0030CE94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A0C20EB29A4D07A0030CE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A0C20EE29A4D07A0030CE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A0C20F029A4D07D0030CE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0C20F329A4D07D0030CE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A0C20F529A4D07D0030CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +107,6 @@
 				63E209DDDB48E42D890A1BF7 /* Pods-MoviesWithCombineTests.debug.xcconfig */,
 				5A3E6787AA230C2FF2366791 /* Pods-MoviesWithCombineTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,8 +137,6 @@
 			children = (
 				9A0C20E729A4D07A0030CE94 /* AppDelegate.swift */,
 				9A0C20E929A4D07A0030CE94 /* SceneDelegate.swift */,
-				9A0C20EB29A4D07A0030CE94 /* ViewController.swift */,
-				9A0C20ED29A4D07A0030CE94 /* Main.storyboard */,
 				9A0C20F029A4D07D0030CE94 /* Assets.xcassets */,
 				9A0C20F229A4D07D0030CE94 /* LaunchScreen.storyboard */,
 				9A0C20F529A4D07D0030CE94 /* Info.plist */,
@@ -280,7 +273,6 @@
 			files = (
 				9A0C20F429A4D07D0030CE94 /* LaunchScreen.storyboard in Resources */,
 				9A0C20F129A4D07D0030CE94 /* Assets.xcassets in Resources */,
-				9A0C20EF29A4D07A0030CE94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +417,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0C20EC29A4D07A0030CE94 /* ViewController.swift in Sources */,
 				9A0C20E829A4D07A0030CE94 /* AppDelegate.swift in Sources */,
 				9A0C20EA29A4D07A0030CE94 /* SceneDelegate.swift in Sources */,
 			);
@@ -464,14 +455,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A0C20ED29A4D07A0030CE94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A0C20EE29A4D07A0030CE94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A0C20F229A4D07D0030CE94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
