@@ -25,5 +25,15 @@ class AppCoordinator:Coordinator{
         movieListViewController.coordinator = self
         self.navigationController.pushViewController(movieListViewController, animated: true)
     }
-    
+    func presentDetailsScreen(movieData:MoviesListResonse){
+        let movieDetailsScreen = MovieDetailsViewController(movieData: movieData)
+        movieDetailsScreen.modalPresentationStyle = .fullScreen
+        movieDetailsScreen.modalTransitionStyle = .crossDissolve
+        self.navigationController.present(movieDetailsScreen, animated: true)
+    }
+    func handleOpenSafari(urlAds:String){
+        if let url = URL(string: urlAds) {
+            UIApplication.shared.open(url)
+        }
+    }
 }
