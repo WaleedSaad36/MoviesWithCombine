@@ -1,0 +1,34 @@
+PODS:
+  - CryptoSwift (1.6.0)
+  - IQKeyboardManager (6.5.11)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SnapshotTesting (1.9.0)
+  - SwiftLint (0.44.0)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - IQKeyboardManager
+  - SDWebImage (= 5.12.5)
+  - SnapshotTesting (= 1.9.0)
+  - SwiftLint (= 0.44.0)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - IQKeyboardManager
+    - SDWebImage
+    - SnapshotTesting
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+
+PODFILE CHECKSUM: 85b5fb3732279e3abf97f3824c4f10d9871d47f7
+
+COCOAPODS: 1.11.3
