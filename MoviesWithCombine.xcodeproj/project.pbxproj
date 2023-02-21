@@ -175,7 +175,7 @@
 		9AA16CD529A5639600542B3C /* Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movies.xcdatamodel; sourceTree = "<group>"; };
 		9AA16CD729A5649D00542B3C /* MovieDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataEntity.swift; sourceTree = "<group>"; };
 		9AA16CD929A5656B00542B3C /* MovieStorageManagerContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStorageManagerContract.swift; sourceTree = "<group>"; };
-		9AA16CDB29A565AB00542B3C /* MoviesStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesStorageManager.swift; sourceTree = "<group>"; };
+		9AA16CDB29A565AB00542B3C /* MoviesStorageManager.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = MoviesStorageManager.swift; sourceTree = "<group>"; };
 		9AA16CDD29A5660900542B3C /* CoreDataStoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStoreType.swift; sourceTree = "<group>"; };
 		9AA16CDF29A5664400542B3C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
@@ -479,8 +479,7 @@
 			children = (
 				9A83F46829A5065500EF797E /* ErrorManager */,
 				9A83F47429A5082C00EF797E /* Enviroment */,
-				9AA16CDD29A5660900542B3C /* CoreDataStoreType.swift */,
-				9AA16CDF29A5664400542B3C /* CoreDataManager.swift */,
+				9AA16CE129A566B300542B3C /* CoreData */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -692,6 +691,15 @@
 				9AA16CD129A55A2100542B3C /* MovieDetailsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9AA16CE129A566B300542B3C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9AA16CDD29A5660900542B3C /* CoreDataStoreType.swift */,
+				9AA16CDF29A5664400542B3C /* CoreDataManager.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		9AFB7E6A29A4F3E7007989F6 /* Application */ = {
