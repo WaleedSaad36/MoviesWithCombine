@@ -65,7 +65,14 @@ extension MovieListViewController:UICollectionViewDelegate{
         viewmodel.loadMoreMovieList()
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let isWideCell = viewmodel.isWideCell(for: indexPath)
+        if isWideCell {
+            let ads = viewmodel.getMovieData(for: indexPath)
+            coordinator?.handleOpenSafari(urlAds: ads.url)
+           
+        }else{
+            coordinator?.presentDetailsScreen(movieData: viewmodel.getMovieData(for: indexPath))
+        }
     }
 }
 extension MovieListViewController:UICollectionViewDataSource{
@@ -86,6 +93,11 @@ extension MovieListViewController:UICollectionViewDataSource{
 
 extension MovieListViewController:CollectionViewCustomLayoutDelegate{
     func collectionView(_ collectionView: UICollectionView, sizeOfItemAtIndexPath indexPath: IndexPath) -> CGSize {
-        return CGSize()
+
+        let isWideCell:Bool = viewmodel.isWideCell(for: indexPath)
+        
+        var size = viewmodel.getMovieSize(for: indexPath)
+        return isWideCell ? CGSize(width: CGFloat(100), height: CGFloat(15)) : CGSize(width: CGFloat(size.0), height: CGFloat(size.1))
+        
     }
 }
