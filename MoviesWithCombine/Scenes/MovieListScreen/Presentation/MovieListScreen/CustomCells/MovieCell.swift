@@ -24,6 +24,7 @@ class MovieCell: UICollectionViewCell {
     }
     func configerAds(data:MoviesListResonse){
         self.imageMovie.setImage(using: data.downloadURL)
+        self.titleMovie.text = data.author
     }
 
 }
