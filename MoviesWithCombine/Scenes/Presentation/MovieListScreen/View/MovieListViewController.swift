@@ -9,6 +9,10 @@ import UIKit
 
 class MovieListViewController: UIViewController {
     
+    //MARK:- Outlets
+    @IBOutlet weak var MovieCollectionView: UICollectionView!
+    
+    //MARK:- Properties
     weak var coordinator: AppCoordinator?
     
     override func viewDidLoad() {

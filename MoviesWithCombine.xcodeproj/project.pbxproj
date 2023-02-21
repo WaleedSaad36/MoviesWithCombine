@@ -232,11 +232,10 @@
 				9A0C20F529A4D07D0030CE94 /* Info.plist */,
 				9AFB7E6A29A4F3E7007989F6 /* Application */,
 				9A83F43129A4F84100EF797E /* Extenstions */,
-				9AFB7E6F29A4F560007989F6 /* Scenes */,
-				9AFB7E6B29A4F3FA007989F6 /* Resources */,
 				9A83F46C29A506BC00EF797E /* Managers */,
 				9A83F43529A4FCEA00EF797E /* Utilites */,
-				9A83F47929A50DFB00EF797E /* Networking */,
+				9AFB7E6F29A4F560007989F6 /* Scenes */,
+				9AFB7E6B29A4F3FA007989F6 /* Resources */,
 			);
 			path = MoviesWithCombine;
 			sourceTree = "<group>";
@@ -280,6 +279,7 @@
 		9A83F43529A4FCEA00EF797E /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
+				9A83F47929A50DFB00EF797E /* Networking */,
 				9A83F43629A4FD0200EF797E /* Reachability */,
 				9A83F43B29A4FDA900EF797E /* BaseViewController */,
 				9A83F47129A5078600EF797E /* BaseViewModel */,
@@ -507,6 +507,14 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		9A83F49029A530F100EF797E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB7E6E29A4F54E007989F6 /* MovieListScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		9AFB7E6A29A4F3E7007989F6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -526,19 +534,19 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		9AFB7E6D29A4F444007989F6 /* MovieListViewController */ = {
+		9AFB7E6D29A4F444007989F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */,
 				9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */,
 			);
-			path = MovieListViewController;
+			path = View;
 			sourceTree = "<group>";
 		};
 		9AFB7E6E29A4F54E007989F6 /* MovieListScreen */ = {
 			isa = PBXGroup;
 			children = (
-				9AFB7E6D29A4F444007989F6 /* MovieListViewController */,
+				9AFB7E6D29A4F444007989F6 /* View */,
 			);
 			path = MovieListScreen;
 			sourceTree = "<group>";
@@ -546,7 +554,7 @@
 		9AFB7E6F29A4F560007989F6 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				9AFB7E6E29A4F54E007989F6 /* MovieListScreen */,
+				9A83F49029A530F100EF797E /* Presentation */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
