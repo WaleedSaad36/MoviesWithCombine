@@ -17,7 +17,7 @@ final class MovieListRepository:DisposeObject{
         self.movieService = movieService
     }
 }
-extension MovieListRepository:MovieListServiceContract{
+extension MovieListRepository:MoviesListRepositoryContract{
     func fetchMoviesList(using pageIndex: Int, limitPages: Int) -> AnyPublisher<[MoviesListResonse], BaseError> {
         
         let remoteData = movieService.fetchMoviesList(using: pageIndex, limitPages: limitPages).eraseToBaseError().eraseToAnyPublisher()

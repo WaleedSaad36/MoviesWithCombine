@@ -59,6 +59,8 @@
 		9A83F4A129A5405900EF797E /* MovieListServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4A029A5405900EF797E /* MovieListServiceContract.swift */; };
 		9A83F4A929A5430000EF797E /* MovieRepositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4A829A5430000EF797E /* MovieRepositoryContract.swift */; };
 		9A83F4AB29A5434A00EF797E /* MovieListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */; };
+		9A83F4AD29A5477300EF797E /* FetchMovieListUseCaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AC29A5477300EF797E /* FetchMovieListUseCaseContract.swift */; };
+		9A83F4AF29A547AB00EF797E /* MovieListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AE29A547AB00EF797E /* MovieListUseCase.swift */; };
 		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
 		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 		9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */; };
@@ -152,6 +154,8 @@
 		9A83F4A029A5405900EF797E /* MovieListServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListServiceContract.swift; sourceTree = "<group>"; };
 		9A83F4A829A5430000EF797E /* MovieRepositoryContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepositoryContract.swift; sourceTree = "<group>"; };
 		9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRepository.swift; sourceTree = "<group>"; };
+		9A83F4AC29A5477300EF797E /* FetchMovieListUseCaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMovieListUseCaseContract.swift; sourceTree = "<group>"; };
+		9A83F4AE29A547AB00EF797E /* MovieListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListUseCase.swift; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIFont+Helpers.swift"; sourceTree = "<group>"; };
@@ -602,6 +606,8 @@
 		9A83F4A629A540FB00EF797E /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				9A83F4AC29A5477300EF797E /* FetchMovieListUseCaseContract.swift */,
+				9A83F4AE29A547AB00EF797E /* MovieListUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -932,6 +938,7 @@
 				9A83F43429A4FCC800EF797E /* ReachabilityContract.swift in Sources */,
 				9A83F45529A5022600EF797E /* ProgressHUD.swift in Sources */,
 				9A83F47029A5073300EF797E /* ViewModelState.swift in Sources */,
+				9A83F4AF29A547AB00EF797E /* MovieListUseCase.swift in Sources */,
 				9A83F4AB29A5434A00EF797E /* MovieListRepository.swift in Sources */,
 				9A83F45129A5022600EF797E /* ProgressView.swift in Sources */,
 				9A83F45429A5022600EF797E /* ProgressDisplayer.swift in Sources */,
@@ -956,6 +963,7 @@
 				9A83F49F29A5403800EF797E /* MovieService.swift in Sources */,
 				9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */,
 				9A83F47629A509C400EF797E /* APIServiceContract.swift in Sources */,
+				9A83F4AD29A5477300EF797E /* FetchMovieListUseCaseContract.swift in Sources */,
 				9A83F48829A517C300EF797E /* Constants.swift in Sources */,
 				9AFB7E9629A4F788007989F6 /* Ex+Optional+Helpers.swift in Sources */,
 				9AFB7E9B29A4F788007989F6 /* Ex+UIColor+Helpers.swift in Sources */,
