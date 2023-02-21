@@ -8,7 +8,9 @@
 import UIKit
 
 class MovieListViewController: UIViewController {
-
+    
+    weak var coordinator: AppCoordinator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
