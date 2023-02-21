@@ -40,6 +40,15 @@
 		9A83F46E29A506FE00EF797E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F46D29A506FE00EF797E /* BaseViewModel.swift */; };
 		9A83F47029A5073300EF797E /* ViewModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F46F29A5073300EF797E /* ViewModelState.swift */; };
 		9A83F47329A5080C00EF797E /* EnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F47229A5080C00EF797E /* EnvironmentManager.swift */; };
+		9A83F47629A509C400EF797E /* APIServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F47529A509C400EF797E /* APIServiceContract.swift */; };
+		9A83F47829A50DF200EF797E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F47729A50DF200EF797E /* APIService.swift */; };
+		9A83F47B29A5161000EF797E /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F47A29A5161000EF797E /* NetworkConstants.swift */; };
+		9A83F47D29A5164C00EF797E /* ConstantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F47C29A5164C00EF797E /* ConstantAPI.swift */; };
+		9A83F47F29A5169000EF797E /* NetworkContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F47E29A5169000EF797E /* NetworkContentType.swift */; };
+		9A83F48129A516C000EF797E /* NetworkHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F48029A516C000EF797E /* NetworkHeaders.swift */; };
+		9A83F48329A516DA00EF797E /* NetworkMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F48229A516DA00EF797E /* NetworkMethods.swift */; };
+		9A83F48529A516FF00EF797E /* NetworkParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F48429A516FF00EF797E /* NetworkParameters.swift */; };
+		9A83F48829A517C300EF797E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F48729A517C300EF797E /* Constants.swift */; };
 		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
 		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 		9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */; };
@@ -114,6 +123,15 @@
 		9A83F46D29A506FE00EF797E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		9A83F46F29A5073300EF797E /* ViewModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelState.swift; sourceTree = "<group>"; };
 		9A83F47229A5080C00EF797E /* EnvironmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentManager.swift; sourceTree = "<group>"; };
+		9A83F47529A509C400EF797E /* APIServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceContract.swift; sourceTree = "<group>"; };
+		9A83F47729A50DF200EF797E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9A83F47A29A5161000EF797E /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		9A83F47C29A5164C00EF797E /* ConstantAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantAPI.swift; sourceTree = "<group>"; };
+		9A83F47E29A5169000EF797E /* NetworkContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkContentType.swift; sourceTree = "<group>"; };
+		9A83F48029A516C000EF797E /* NetworkHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHeaders.swift; sourceTree = "<group>"; };
+		9A83F48229A516DA00EF797E /* NetworkMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethods.swift; sourceTree = "<group>"; };
+		9A83F48429A516FF00EF797E /* NetworkParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParameters.swift; sourceTree = "<group>"; };
+		9A83F48729A517C300EF797E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIFont+Helpers.swift"; sourceTree = "<group>"; };
@@ -214,6 +232,7 @@
 				9AFB7E6B29A4F3FA007989F6 /* Resources */,
 				9A83F46C29A506BC00EF797E /* Managers */,
 				9A83F43529A4FCEA00EF797E /* Utilites */,
+				9A83F47929A50DFB00EF797E /* Networking */,
 			);
 			path = MoviesWithCombine;
 			sourceTree = "<group>";
@@ -433,6 +452,46 @@
 				9A83F47229A5080C00EF797E /* EnvironmentManager.swift */,
 			);
 			path = Enviroment;
+			sourceTree = "<group>";
+		};
+		9A83F47929A50DFB00EF797E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F48629A5177100EF797E /* APIService */,
+				9A83F48929A517F700EF797E /* ConstantsAPI */,
+				9A83F48A29A5181F00EF797E /* NetworkConstants */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9A83F48629A5177100EF797E /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F47529A509C400EF797E /* APIServiceContract.swift */,
+				9A83F47729A50DF200EF797E /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		9A83F48929A517F700EF797E /* ConstantsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F47A29A5161000EF797E /* NetworkConstants.swift */,
+				9A83F48729A517C300EF797E /* Constants.swift */,
+				9A83F47C29A5164C00EF797E /* ConstantAPI.swift */,
+			);
+			path = ConstantsAPI;
+			sourceTree = "<group>";
+		};
+		9A83F48A29A5181F00EF797E /* NetworkConstants */ = {
+			isa = PBXGroup;
+			children = (
+				9A83F47E29A5169000EF797E /* NetworkContentType.swift */,
+				9A83F48029A516C000EF797E /* NetworkHeaders.swift */,
+				9A83F48229A516DA00EF797E /* NetworkMethods.swift */,
+				9A83F48429A516FF00EF797E /* NetworkParameters.swift */,
+			);
+			path = NetworkConstants;
 			sourceTree = "<group>";
 		};
 		9AFB7E6A29A4F3E7007989F6 /* Application */ = {
@@ -736,6 +795,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A83F43829A4FD5000EF797E /* ReachabilityManager.swift in Sources */,
+				9A83F48329A516DA00EF797E /* NetworkMethods.swift in Sources */,
 				9AFB7E9229A4F788007989F6 /* Ex+UIView+Helpers.swift in Sources */,
 				9A83F45229A5022600EF797E /* ProgressHUDAlertIcon.swift in Sources */,
 				9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */,
@@ -757,18 +817,26 @@
 				9AFB7E9529A4F788007989F6 /* Ex+Dictionary+Helpers.swift in Sources */,
 				9AFB7E9729A4F788007989F6 /* Ex+CollectionView+Helpers.swift in Sources */,
 				9A83F47329A5080C00EF797E /* EnvironmentManager.swift in Sources */,
+				9A83F47829A50DF200EF797E /* APIService.swift in Sources */,
 				9A83F46629A5063400EF797E /* ErrorType+Code.swift in Sources */,
 				9A83F43A29A4FD9F00EF797E /* BaseViewController.swift in Sources */,
 				9AFB7E9929A4F788007989F6 /* Ex+Navigation+Helpers.swift in Sources */,
 				9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */,
+				9A83F47629A509C400EF797E /* APIServiceContract.swift in Sources */,
+				9A83F48829A517C300EF797E /* Constants.swift in Sources */,
 				9AFB7E9629A4F788007989F6 /* Ex+Optional+Helpers.swift in Sources */,
 				9AFB7E9B29A4F788007989F6 /* Ex+UIColor+Helpers.swift in Sources */,
 				9A83F46729A5063400EF797E /* ErrorType+Message.swift in Sources */,
 				9A83F45329A5022600EF797E /* ProgressHUDAnimatedIcon.swift in Sources */,
+				9A83F47B29A5161000EF797E /* NetworkConstants.swift in Sources */,
 				9A0C20E829A4D07A0030CE94 /* AppDelegate.swift in Sources */,
+				9A83F48129A516C000EF797E /* NetworkHeaders.swift in Sources */,
+				9A83F47D29A5164C00EF797E /* ConstantAPI.swift in Sources */,
+				9A83F48529A516FF00EF797E /* NetworkParameters.swift in Sources */,
 				9A0C20EA29A4D07A0030CE94 /* SceneDelegate.swift in Sources */,
 				9A83F46329A5063400EF797E /* ErrorConstant.swift in Sources */,
 				9A83F46E29A506FE00EF797E /* BaseViewModel.swift in Sources */,
+				9A83F47F29A5169000EF797E /* NetworkContentType.swift in Sources */,
 				9AFB7E9829A4F788007989F6 /* Ex+String+Helpers.swift in Sources */,
 				9AFB7E9329A4F788007989F6 /* Ex+UIViewController.swift in Sources */,
 				9AFB7E9429A4F788007989F6 /* Extension+Publisher.swift in Sources */,
