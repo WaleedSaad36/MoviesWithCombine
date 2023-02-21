@@ -57,6 +57,8 @@
 		9A83F49C29A53DE400EF797E /* CollectionViewCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F49B29A53DE400EF797E /* CollectionViewCustomLayout.swift */; };
 		9A83F49F29A5403800EF797E /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F49E29A5403800EF797E /* MovieService.swift */; };
 		9A83F4A129A5405900EF797E /* MovieListServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4A029A5405900EF797E /* MovieListServiceContract.swift */; };
+		9A83F4A929A5430000EF797E /* MovieRepositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4A829A5430000EF797E /* MovieRepositoryContract.swift */; };
+		9A83F4AB29A5434A00EF797E /* MovieListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */; };
 		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
 		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 		9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */; };
@@ -148,6 +150,8 @@
 		9A83F49B29A53DE400EF797E /* CollectionViewCustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomLayout.swift; sourceTree = "<group>"; };
 		9A83F49E29A5403800EF797E /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		9A83F4A029A5405900EF797E /* MovieListServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListServiceContract.swift; sourceTree = "<group>"; };
+		9A83F4A829A5430000EF797E /* MovieRepositoryContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepositoryContract.swift; sourceTree = "<group>"; };
+		9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRepository.swift; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIFont+Helpers.swift"; sourceTree = "<group>"; };
@@ -589,6 +593,8 @@
 		9A83F4A529A540C900EF797E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				9A83F4A829A5430000EF797E /* MovieRepositoryContract.swift */,
+				9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -926,6 +932,7 @@
 				9A83F43429A4FCC800EF797E /* ReachabilityContract.swift in Sources */,
 				9A83F45529A5022600EF797E /* ProgressHUD.swift in Sources */,
 				9A83F47029A5073300EF797E /* ViewModelState.swift in Sources */,
+				9A83F4AB29A5434A00EF797E /* MovieListRepository.swift in Sources */,
 				9A83F45129A5022600EF797E /* ProgressView.swift in Sources */,
 				9A83F45429A5022600EF797E /* ProgressDisplayer.swift in Sources */,
 				9A83F46529A5063400EF797E /* ErrorResolver.swift in Sources */,
@@ -965,6 +972,7 @@
 				9A83F46E29A506FE00EF797E /* BaseViewModel.swift in Sources */,
 				9A83F47F29A5169000EF797E /* NetworkContentType.swift in Sources */,
 				9A83F48C29A5195800EF797E /* APIBuilder.swift in Sources */,
+				9A83F4A929A5430000EF797E /* MovieRepositoryContract.swift in Sources */,
 				9AFB7E9829A4F788007989F6 /* Ex+String+Helpers.swift in Sources */,
 				9AFB7E9329A4F788007989F6 /* Ex+UIViewController.swift in Sources */,
 				9AFB7E9429A4F788007989F6 /* Extension+Publisher.swift in Sources */,
