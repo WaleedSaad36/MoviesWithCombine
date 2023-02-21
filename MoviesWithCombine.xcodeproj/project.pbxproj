@@ -61,6 +61,8 @@
 		9A83F4AB29A5434A00EF797E /* MovieListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */; };
 		9A83F4AD29A5477300EF797E /* FetchMovieListUseCaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AC29A5477300EF797E /* FetchMovieListUseCaseContract.swift */; };
 		9A83F4AF29A547AB00EF797E /* MovieListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83F4AE29A547AB00EF797E /* MovieListUseCase.swift */; };
+		9AA16CC629A54F4800542B3C /* MovieListViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA16CC529A54F4800542B3C /* MovieListViewModelContract.swift */; };
+		9AA16CC829A54F9F00542B3C /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA16CC729A54F9F00542B3C /* MovieListViewModel.swift */; };
 		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
 		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 		9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */; };
@@ -156,6 +158,8 @@
 		9A83F4AA29A5434A00EF797E /* MovieListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRepository.swift; sourceTree = "<group>"; };
 		9A83F4AC29A5477300EF797E /* FetchMovieListUseCaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMovieListUseCaseContract.swift; sourceTree = "<group>"; };
 		9A83F4AE29A547AB00EF797E /* MovieListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListUseCase.swift; sourceTree = "<group>"; };
+		9AA16CC529A54F4800542B3C /* MovieListViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelContract.swift; sourceTree = "<group>"; };
+		9AA16CC729A54F9F00542B3C /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIFont+Helpers.swift"; sourceTree = "<group>"; };
@@ -615,6 +619,8 @@
 		9A83F4A729A5412300EF797E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9AA16CC529A54F4800542B3C /* MovieListViewModelContract.swift */,
+				9AA16CC729A54F9F00542B3C /* MovieListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -957,6 +963,7 @@
 				9AFB7E9729A4F788007989F6 /* Ex+CollectionView+Helpers.swift in Sources */,
 				9A83F47329A5080C00EF797E /* EnvironmentManager.swift in Sources */,
 				9A83F47829A50DF200EF797E /* APIService.swift in Sources */,
+				9AA16CC829A54F9F00542B3C /* MovieListViewModel.swift in Sources */,
 				9A83F46629A5063400EF797E /* ErrorType+Code.swift in Sources */,
 				9A83F43A29A4FD9F00EF797E /* BaseViewController.swift in Sources */,
 				9AFB7E9929A4F788007989F6 /* Ex+Navigation+Helpers.swift in Sources */,
@@ -975,6 +982,7 @@
 				9A83F48129A516C000EF797E /* NetworkHeaders.swift in Sources */,
 				9A83F47D29A5164C00EF797E /* ConstantAPI.swift in Sources */,
 				9A83F48529A516FF00EF797E /* NetworkParameters.swift in Sources */,
+				9AA16CC629A54F4800542B3C /* MovieListViewModelContract.swift in Sources */,
 				9A0C20EA29A4D07A0030CE94 /* SceneDelegate.swift in Sources */,
 				9A83F46329A5063400EF797E /* ErrorConstant.swift in Sources */,
 				9A83F46E29A506FE00EF797E /* BaseViewModel.swift in Sources */,
