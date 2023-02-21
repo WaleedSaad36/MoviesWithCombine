@@ -21,7 +21,7 @@ class MovieListViewController: BaseViewController {
         let layout = PhotosCollectionViewCustomLayout(
             delegate: self,
             numberOfColums: 1,
-            cellPadding: 5
+            cellPadding: 3
         )
         return layout
     }()
@@ -45,6 +45,7 @@ class MovieListViewController: BaseViewController {
         self.MovieCollectionView.registerCellNib(MovieCell.self)
         self.MovieCollectionView.delegate = self
         self.MovieCollectionView.dataSource = self
+        self.MovieCollectionView.collectionViewLayout = MovieCustomCollectionViewLayout
         self.MovieCollectionView.showsVerticalScrollIndicator = false
         self.MovieCollectionView.showsHorizontalScrollIndicator = false
     }

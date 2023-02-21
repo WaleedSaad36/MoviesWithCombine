@@ -66,6 +66,7 @@
 		9AA16CCB29A5559100542B3C /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA16CC929A5559100542B3C /* MovieDetailsViewController.swift */; };
 		9AA16CCC29A5559100542B3C /* MovieDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA16CCA29A5559100542B3C /* MovieDetailsViewController.xib */; };
 		9AA16CD229A55A2100542B3C /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA16CD129A55A2100542B3C /* MovieDetailsViewModel.swift */; };
+		9AA16CD629A5639600542B3C /* Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AA16CD429A5639600542B3C /* Movies.xcdatamodeld */; };
 		9AFB7E6829A4F170007989F6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */; };
 		9AFB7E6929A4F170007989F6 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */; };
 		9AFB7E9129A4F788007989F6 /* Ex+UIFont+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */; };
@@ -166,6 +167,7 @@
 		9AA16CC929A5559100542B3C /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		9AA16CCA29A5559100542B3C /* MovieDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailsViewController.xib; sourceTree = "<group>"; };
 		9AA16CD129A55A2100542B3C /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
+		9AA16CD529A5639600542B3C /* Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movies.xcdatamodel; sourceTree = "<group>"; };
 		9AFB7E6629A4F170007989F6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		9AFB7E6729A4F170007989F6 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
 		9AFB7E8629A4F785007989F6 /* Ex+UIFont+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIFont+Helpers.swift"; sourceTree = "<group>"; };
@@ -600,6 +602,7 @@
 		9A83F4A429A5409B00EF797E /* Cache */ = {
 			isa = PBXGroup;
 			children = (
+				9AA16CD429A5639600542B3C /* Movies.xcdatamodeld */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -1003,6 +1006,7 @@
 				9A83F45029A5022600EF797E /* ProgressHUDAnimationType.swift in Sources */,
 				9A83F49329A5341800EF797E /* MovieCell.swift in Sources */,
 				9A83F44029A4FF8500EF797E /* GaneralConstants.swift in Sources */,
+				9AA16CD629A5639600542B3C /* Movies.xcdatamodeld in Sources */,
 				9AA16CCB29A5559100542B3C /* MovieDetailsViewController.swift in Sources */,
 				9AA16CD229A55A2100542B3C /* MovieDetailsViewModel.swift in Sources */,
 				9A83F49C29A53DE400EF797E /* CollectionViewCustomLayout.swift in Sources */,
@@ -1383,6 +1387,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AA16CD429A5639600542B3C /* Movies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AA16CD529A5639600542B3C /* Movies.xcdatamodel */,
+			);
+			currentVersion = 9AA16CD529A5639600542B3C /* Movies.xcdatamodel */;
+			path = Movies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9A0C20DC29A4D0790030CE94 /* Project object */;
 }

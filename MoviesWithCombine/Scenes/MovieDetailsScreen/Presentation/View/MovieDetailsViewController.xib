@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,31 +37,29 @@
                         <constraint firstAttribute="trailing" secondItem="KzN-BS-5SR" secondAttribute="trailing" id="sh6-7V-xIv"/>
                     </constraints>
                 </scrollView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71U-ib-zjq">
-                    <rect key="frame" x="15" y="62" width="45" height="35"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXe-ib-zlU">
+                    <rect key="frame" x="16" y="64" width="45" height="43.666666666666671"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="45" id="Cex-5f-aSn"/>
-                        <constraint firstAttribute="height" constant="35" id="hah-OD-phB"/>
+                        <constraint firstAttribute="width" constant="45" id="JRD-9W-wZU"/>
+                        <constraint firstAttribute="height" constant="45" id="OKd-b2-E7F"/>
                     </constraints>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain">
-                        <imageReference key="image" image="x.circle" catalog="system" symbolScale="large"/>
-                    </buttonConfiguration>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="x.circle" catalog="system"/>
                     <connections>
-                        <action selector="TappedOnBackBtn:" destination="-1" eventType="touchUpInside" id="2D7-oZ-bOM"/>
+                        <action selector="TappedOnBackBtn:" destination="-1" eventType="touchUpInside" id="hhe-dt-lDc"/>
                     </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="hXe-ib-zlU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="3be-t5-sPD"/>
                 <constraint firstAttribute="bottom" secondItem="QnH-61-2Bk" secondAttribute="bottom" id="E6z-fr-894"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QnH-61-2Bk" secondAttribute="trailing" id="EwR-Of-lmx"/>
                 <constraint firstItem="QnH-61-2Bk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Mf5-G8-FXW"/>
                 <constraint firstItem="QnH-61-2Bk" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="QbP-oG-o1g"/>
-                <constraint firstItem="71U-ib-zjq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="Vjf-5P-AMf"/>
-                <constraint firstItem="71U-ib-zjq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="rvD-Dk-x8f"/>
+                <constraint firstItem="hXe-ib-zlU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="jye-j5-UcV"/>
                 <constraint firstItem="QnH-61-2Bk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xx3-mq-iMG"/>
                 <constraint firstItem="QnH-61-2Bk" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="zBe-OD-uY7"/>
             </constraints>
