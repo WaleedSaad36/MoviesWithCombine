@@ -16,8 +16,14 @@ class MovieListViewController: UIViewController {
     weak var coordinator: AppCoordinator?
     
     //MARK:- Private Properties
-    
-    
+    private lazy var MovieCustomCollectionViewLayout: PhotosCollectionViewCustomLayout = {
+        let layout = PhotosCollectionViewCustomLayout(
+            delegate: self,
+            numberOfColums: 1,
+            cellPadding: 5
+        )
+        return layout
+    }()
     
     //MARK:- Life Cycle Methods
     override func viewDidLoad() {
@@ -39,6 +45,14 @@ class MovieListViewController: UIViewController {
         self.MovieCollectionView.showsHorizontalScrollIndicator = false
     }
     
+    
+    
+}
+
+extension MovieListViewController:CollectionViewCustomLayoutDelegate{
+    func collectionView(_ collectionView: UICollectionView, sizeOfItemAtIndexPath indexPath: IndexPath) -> CGSize {
+        return CGSize()
+    }
     
     
 }
