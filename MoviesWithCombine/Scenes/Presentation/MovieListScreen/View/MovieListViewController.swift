@@ -15,9 +15,30 @@ class MovieListViewController: UIViewController {
     //MARK:- Properties
     weak var coordinator: AppCoordinator?
     
+    //MARK:- Private Properties
+    
+    
+    
+    //MARK:- Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
     }
+    
+    //MARK:- Initializer
+    
+    //MARK:- Private Methods
+    private func setupNavigationBar(){
+        self.navigationItem.title = "Movie List"
+    }
+    private func setTableViewCellConfigration() {
+        self.MovieCollectionView.registerCellNib(MovieCell.self)
+//        self.MovieCollectionView.delegate = self
+//        self.MovieCollectionView.dataSource = self
+        self.MovieCollectionView.showsVerticalScrollIndicator = false
+        self.MovieCollectionView.showsHorizontalScrollIndicator = false
+    }
+    
     
     
 }

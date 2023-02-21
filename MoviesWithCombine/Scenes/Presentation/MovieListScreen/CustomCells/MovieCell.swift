@@ -8,8 +8,8 @@
 import UIKit
 
 class MovieCell: UICollectionViewCell {
+    //MARK:- OutLets
     @IBOutlet weak var imageMovie: AsyncImageView!
-    
     @IBOutlet weak var titleMovie: UILabel!
     
     override func awakeFromNib() {
@@ -17,6 +17,7 @@ class MovieCell: UICollectionViewCell {
         // Initialization code
     }
     
+    //MARK:- ConfigrationDataModel
     func configer(movieData:MoviesListResonse){
         self.imageMovie.setImage(using: movieData.downloadURL)
         self.titleMovie.text = movieData.author
